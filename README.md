@@ -1,4 +1,4 @@
-# CollegeProject
+# VidhyaPrarambha
 
 #Landing Page:
 Student can register the form
