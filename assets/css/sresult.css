@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Gill Sans", sans-serif;
+}
+body{
+    background:url("../../media/b8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heade ul li a{
+    color: white!important;
+
+}
+.log{
+    background-color:black;
+}
+.log:hover{
+    background-color:black;
+}
+.left{
+    background-color:#022057ed;
+}
+.left h2{
+    color:white;
+    font-size:22px;
+    margin-top:10px;
+
+
+}
+.left h2:hover{
+   background-color: #183555;
+
+}
+.left a{
+    color:white;
+}
+.left a:hover{
+   background-color:black ;
+   color:white;
+}
+
+.navv{
+    background-color:#2b8ee2d6;
+    font-weight: 600;
+}
+.navv ul li a{
+    color:white;
+}
+.table{
+    width:50%;
+    text-align:center;
+    margin:0 auto;
+
+   
+   
+}
+
+.table th{
+    border:1px solid black;
+    background-color: #00b8ffd4;
+    color:white;
+    font-weight: 600;
+}
+.table td{
+    border:1px solid black;
+    background-color: #fff;
+}

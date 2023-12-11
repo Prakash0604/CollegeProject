@@ -1,0 +1,39 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background: url("../../media/b7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table1{
+    width:100%;
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    margin-top:50px;
+    
+    
+    
+}
+table{
+    border:1px solid white;
+    color:white;
+    background-color:#00000069;
+
+}
+.table1 thead tr th{
+    border:1px solid white;
+    color:white;
+    background-color:#00a1ffa6;
+}
+.table1 tbody tr td{
+    border:1px solid white;
+    color:white;
+}
+
+.table1 input{
+    width:50%;
+}

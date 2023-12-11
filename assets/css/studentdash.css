@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Gill Sans", sans-serif;
+}
+body{
+    background-color:#0000002e;
+}
+.heade ul li a{
+    color: white!important;
+
+}
+.log{
+    background-color:black;
+}
+.log:hover{
+    background-color:black;
+}
+.left{
+    background-color:#022057ed;
+}
+.left h2{
+    color:white;
+    font-size:22px;
+    margin-top:10px;
+
+
+}
+.left h2:hover{
+   background-color: #183555;
+
+}
+.left a{
+    color:white;
+}
+.left a:hover{
+   background-color:black ;
+   color:white;
+}
+
+.navv{
+    background-color:#2b8ee2d6;
+    font-weight: 600;
+}
+.navv ul li a{
+    color:white;
+}
+.std{
+    margin-top:20px;
+    color:black;
+}
+.card{
+    margin-top:30px;
+    width:50%;
+    display: block;
+    margin:0 auto;
+}

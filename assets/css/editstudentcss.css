@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.heade ul li a{
+    color: white!important;
+    
+
+}
+.log{
+    background-color:black;
+}
+.log:hover{
+    background-color:black;
+}
+.left{
+    background-color:#1f1414ed;
+  
+}
+.left h2{
+    color:white;
+    font-size:22px;
+    margin-top:10px;
+
+
+}
+.left h2:hover{
+   background-color: #183555;
+
+}
+.left a{
+    color:white;
+}
+.left a:hover{
+   background-color:black ;
+   color:white;
+}
+
+.card{
+    width:400px;
+    margin-top:50px;
+    margin-left:300px!important;
+
+}
+.card1{
+    width:1178px;
+    margin-top:50px;
+    margin-left:100px!important;
+
+}
+.enrollment{
+    width:1214px;
+    margin-top:50px;
+    margin-left:33px!important;
+
+}
+
+.edit h2{
+    background-color:#291b0c;
+    color:white;
+
+}
+.table{
+    margin-top:30px;
+    width:100%;
+    display:block;
+    margin:0 auto;
+    
+}
+.table th{
+    border:1px solid black;
+    text-align:center;
+}
+.table td{
+    border:1px solid black;
+    text-align:center;
+
+}

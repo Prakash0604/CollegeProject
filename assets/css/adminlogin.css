@@ -1,0 +1,22 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background:url("../../media/b1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.card{
+    width:35%;
+    display:block;
+    margin:0 auto;
+    margin-top:20px;
+}
+.logh2{
+    color:rgb(49, 49, 49);
+}
+.log{
+    background-color:#171717;
+}

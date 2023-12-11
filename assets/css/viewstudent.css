@@ -1,0 +1,35 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background:url(../../media/b7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    /* padding-left: 40px; */
+    margin-top:50px;
+    background-color:#00000069;
+}
+.table{
+    border:1px solid white;
+}
+.table thead th{
+    background-color:#00a1ffa6;
+    border:1px solid white;
+    color:white;
+    font-weight:700;
+    text-align: center;
+}
+.table td{
+    color:white;
+    border:1px solid white;
+}
+.btnn{
+    display:block;
+    margin-top:20px;
+    text-align: center;
+    margin-bottom:20px;
+}
+   

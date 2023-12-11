@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.heade ul li a{
+    color: white!important;
+
+}
+.log{
+    background-color:black;
+}
+.log:hover{
+    background-color:black;
+}
+.left{
+    background-color:#1f1414ed;
+}
+.left h2{
+    color:white;
+    font-size:22px;
+    margin-top:10px;
+
+
+}
+.left h2:hover{
+    
+   background-color: #183555;
+
+}
+.left a{
+    color:white;
+    
+}
+.left a:hover{
+   text-decoration: none;
+}
+.card-body{
+    background-color:rgb(16, 163, 173);
+    color:white;
+}

@@ -1,0 +1,478 @@
+body{
+	background-color: rgb(33, 41, 80);
+	font-family: "Gill Sans", sans-serif;
+}
+.nav-link{
+	padding-left:20px!important;
+}
+
+.nav1{
+	color:rgb(14, 187, 14)!important;
+}
+.nav2{
+	color:white!important;
+}
+.log{
+	background-color:rgba(56, 55, 56, 1);
+	color:white;
+	
+
+}
+.log:hover{
+
+	color:white;
+	background-color:rgb(46, 112, 235);
+	
+}
+.sliderr{
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	background-color: black!important;
+
+}
+.sl-des{
+    margin-top:30px;
+}
+.sl-des h5{
+	color: #8a6600;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    text-transform: uppercase;
+
+}
+.sl-des h6{
+	color: #00c0ee;
+	font-size:15px;
+}
+.sl-des p{
+	color:white;
+	font-size:12px;
+}
+.mission h2{
+	margin-top:15px;
+	margin-bottom:10px;
+	font-size:25px;
+	font-weight: 500;
+	color:white;
+}
+.mission p{
+	font-size:12px;
+	color:white;
+}
+.in{
+	margin-top:65px;
+	color: #b69029;
+	background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, rgba(56, 55, 56, 1) 0%, rgba(46, 46, 46, 1) 18%, rgba(8, 8, 8, 1) 53%, rgba(0, 0, 0, 1) 100%) repeat scroll 0 68px
+;
+
+}
+.in2{
+	margin-top:30px;
+	color: #b69029;
+	background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, rgba(56, 55, 56, 1) 0%, rgba(46, 46, 46, 1) 18%, rgba(8, 8, 8, 1) 53%, rgba(0, 0, 0, 1) 100%) repeat scroll 0 68px
+;
+height: 100px;
+}
+.method h2{
+	
+	margin-bottom:10px;
+	font-size:25px;
+	font-weight: 500;
+	color:white;
+}
+.method ul li{
+	color:white;
+	font-size: 12px;
+}
+.fas.fa-caret-right{
+	color: #b69029;
+	font-size:17px;
+	
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+button::-moz-focus-inner { 
+  border: 0;
+  padding: 0;
+}
+#calendari {
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    height: 330px;
+    width: 350px;
+    font-size: 14px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.4);
+}
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 350px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    transition: all 0.3s ease;
+}
+table.actiu {
+    transform: translateX(0px)top;
+}
+table.inactiu {
+    transition: all 0.3s 0.01s ease;
+}
+table.amagat-esquerra {
+    transform: translateX(-299px);
+}
+table.amagat-dreta {
+    transform: translateX(300px);
+}
+td,th {
+    text-align: center;
+    background-color: #252424;
+}
+th {
+    padding: 10px;
+}
+tr:first-child th {
+    font-size: 20px;
+    font-weight: bold;
+    border-left: none;
+    border-top: none;
+}
+td:last-child, th:last-child {
+  border-right: none;
+}
+th {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    background-color: rgb(43, 41, 41);
+    color: rgb(59, 167, 255);
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    font-weight: normal;
+}
+th .any {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    text-shadow: none;
+	color: #e8dbdb;
+}
+tr:nth-child(2) th {
+    padding: 5px;
+}
+td {
+    padding: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+td>span {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+td:nth-child(even)>span {
+    background-color: rgb(43, 41, 41);
+}
+td:last-child>span,
+td:nth-child(6)>span {
+    color: #fff;
+}
+td.avui>span {
+    font-weight: bold;
+    background-color: rgb(59, 167, 255);
+    color: #fff;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+td.fora > span {
+    opacity: 0.2;
+}
+td > span:hover {
+    background: rgb(59, 167, 255);
+    color: #fff;
+}
+.boto-next, .boto-prev {
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: inherit;
+    padding: 2px 10px 5px 10px;
+    line-height: 1px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+}
+.boto-next { right: 10px; padding-left: 13px; }
+.boto-prev { left: 10px; padding-right: 13px;}
+.boto-next:hover,
+.boto-prev:hover {
+    background: rgba(0,0,0,0.2);
+}
+button:hover { cursor: pointer; }
+button:focus { outline: none; }
+footer {
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 0.8em;
+  padding: 20px;
+}
+.visioni{
+	margin-top:-130px;
+}
+.visioni h2{
+	font-size:25px;
+	font-weight: 500;
+	color:white;
+}
+.visioni p{
+	font-size:12px;
+	color:white;
+}
+.visioni ul li{
+	color:white;
+	font-size:15px;
+	font-family:Arial,  Serif;
+}
+.objective h2{
+    font-size:25px;
+	font-weight: 500;
+	color:white;
+}
+.objective p{
+	font-size:12px;
+	color:white;
+}
+.objective ul li{
+	color:white;
+	font-size:12px;
+	
+}
+.choose h2{
+    font-size:25px;
+	font-weight: 500;
+	color:white;
+}
+.choose p{
+	font-size:12px;
+	color:white;
+}
+.choose ul li{
+	color:white;
+	font-size:12px;
+	
+}
+.span{
+	width:100%;
+	border:2px solid rgb(75, 73, 73);
+	display:block;
+	float:left;
+}
+
+.academic-content span{
+    width:10%;
+    display:block;
+    margin:auto;
+    border:1px solid white;
+}
+.academic-content h2{
+    color:whitesmoke;
+}
+.academic-content p{
+    margin-top:20px;
+    color:whitesmoke;
+}
+.acad{
+    background-color: #0B0F27;
+}
+.acad-content h2{
+    color:white;
+}
+.acad-content span{
+    width:10%;
+    display:block;
+    margin:auto;
+    border:1px solid white;
+}
+.acad-content a{
+    color:white;
+    font-weight: 600;
+}
+.get-in-touch{
+    background-color: #fff;
+}
+.get-in-touch i{
+    color:#88C83C;
+}
+.form-group button{
+    text-align: center;
+    margin:0 auto;
+    color:white;
+    font-size:600;
+    background-color:#88C83C;
+    width:100%;
+    cursor: pointer;
+}
+.form-group button:hover{
+    color:white;
+}
+.welcome{
+    background-color: #fff;
+  
+}
+.welcome h2{
+    color:#554945;
+}
+.welcome p{
+    margin-bottom:20px;
+}
+.about2{
+    color:white;
+}
+.about2 h2{
+    color:#88C83C;
+}
+.s{
+    width:20%;
+    display:block;
+    border:1px solid white;
+    float:left;
+}
+.banner img{
+    display:block;
+    margin:auto;
+}
+.vision{
+    color:white;
+}
+.v{
+    width:15%;
+    display:block;
+    border:1px solid white;
+    float:left;
+}
+.vision{
+    background-color: #a8771b;
+}
+.visi1 p{
+    font-size:17px;
+}
+.btnn{
+    text-align: center;
+    margin:0 auto;
+    display:inline-block;
+    color:white;
+    background-color: #88C83C;
+    
+}
+.application{
+    background-color: #fff;
+}
+.application h2{
+    color:rgb(7, 7, 7);
+}
+
+.application p, ul li{
+    color:rgb(17, 17, 17);
+}
+.application span{
+    width:15%;
+    display:block;
+    border:2px solid rgb(29, 28, 28);
+    margin:0 auto;
+    text-align: center;
+    
+}
+.vac{
+    background:url('media/b10.png')!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vac h3{
+    color:white;
+}
+.vac span{
+    width:15%;
+    display:block;
+    border:1px solid rgb(243, 243, 243);
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:50px;
+}
+.apply{
+    margin-top:50px;
+    background-color: #fff;
+}
+.appp span{
+    width:15%;
+    display:block;
+    border:2px solid rgb(0, 0, 0);
+    text-align: left;
+    margin-bottom:10px;
+    
+}
+.appp h3{
+    font-weight:600;
+    margin-top:220px;
+}
+.appp p{
+    font-weight:500;
+}
+.app img{
+    margin-top:30px;
+    width:100%;
+   
+}
+.appp a{
+    background-color: #161E4D;
+    color:white;
+    border-radius: 30px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.appp a:hover{
+    color:white;
+}
+.btn-b{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 600;
+    background-color: #88C83C;
+    width: 100%;
+    border:none;
+    font-size:30px;
+    font-weight: 600;
+    margin-bottom:30px;
+}
+.admission{
+    margin-bottom:30px;
+}
+
+/* Admission Information table  start*/
+.table1 tbody tr:hover{
+    transform: scale(1.1);
+    font-size:25px;
+    /* Admission Information table  End*/
+}
+
+.btn1{
+    background-color: #007900!important;
+    color:white;
+}
